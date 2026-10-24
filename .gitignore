@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Data cache & outputs
+data/cache/stac/
+data/reference/nepal/*/raw/
+scratch/
+outputs/rasters/*.tif
+outputs/rasters/*.png
+outputs/vectors/*.geojson
+outputs/reports/*.html
+
+# Node / Vite
+node_modules/
+.npm
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Python and Node environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+node_modules/
+frontend/node_modules/
+
+# Generated frontend build
+frontend/dist/
+
+# Generated flood analysis outputs
+outputs/rasters/
+outputs/vectors/
+outputs/reports/
+
+# Large local reference raster
+data/reference/worldpop/*.tif
+data/reference/worldpop/*.tiff

@@ -1,0 +1,66 @@
+{
+  "dataset_title": "Nepal Terai Administrative Boundaries Layer",
+  "version": "1.0.0",
+  "generated_date": "2026-10-24",
+  "source_dataset": {
+    "name": "Nepal - Subnational Administrative Boundaries (COD-AB)",
+    "provider": "Survey Department of Nepal (NGIIP) and UN Resident Coordinator's Office in Nepal",
+    "curator": "United Nations Office for the Coordination of Humanitarian Affairs (OCHA) Field Information Services Section (FISS)",
+    "hdx_url": "https://data.humdata.org/dataset/cod-ab-npl",
+    "source_version": "v02",
+    "valid_on": "2024-03-14",
+    "license": "Creative Commons Attribution for Intergovernmental Organisations (CC BY-IGO)",
+    "raw_archive": "data/reference/nepal/administrative/raw/npl_admin_boundaries.geojson.zip"
+  },
+  "secondary_verification_source": {
+    "name": "Database of Global Administrative Areas (GADM) Version 4.1",
+    "provider": "University of California, Davis (geodata.ucdavis.edu)",
+    "license": "Free for academic and other non-commercial use",
+    "raw_archive": "data/reference/nepal/administrative/raw/gadm41_NPL_3.json.zip"
+  },
+  "coordinate_reference_system": {
+    "name": "WGS 84 / Geographic Coordinates",
+    "epsg": 4326,
+    "axis_order": "[longitude, latitude]"
+  },
+  "inclusion_criteria": {
+    "outer_terai_core_districts": [
+      "Jhapa (NP0104)",
+      "Morang (NP0105)",
+      "Sunsari (NP0106)",
+      "Saptari (NP0215)",
+      "Siraha (NP0216)",
+      "Dhanusa (NP0217)",
+      "Mahottari (NP0218)",
+      "Sarlahi (NP0219)",
+      "Rautahat (NP0232)",
+      "Bara (NP0233)",
+      "Parsa (NP0234)",
+      "Parasi / Nawalparasi West (NP0547)",
+      "Rupandehi (NP0548)",
+      "Kapilbastu (NP0549)",
+      "Banke (NP0557)",
+      "Bardiya (NP0558)",
+      "Kailali (NP0771)",
+      "Kanchanpur (NP0772)"
+    ],
+    "outer_terai_total_count": 18,
+    "inner_terai_valleys": [
+      "Chitwan (NP0335)",
+      "Nawalpur / Nawalparasi East (NP0447)",
+      "Dang (NP0556)"
+    ],
+    "rationale": "In official geographical categorizations by Nepal's Central Bureau of Statistics / National Statistics Office (NSO) and Department of Hydrology & Meteorology (DHM), the Terai Lowland Ecological Belt strictly comprises 18 Outer Terai districts extending continuously across the southern plains. Valleys enclosed between the Mahabharat and Chure/Siwalik ranges (Chitwan, Dang, Nawalpur) constitute the Inner Terai (Bhitri Madhesh) and are cataloged under inner_terai to prevent geographical confusion."
+  },
+  "topology_and_area_validation": {
+    "all_district_geometries_valid": true,
+    "region_union_geometry_valid": true,
+    "outer_terai_total_area_sqkm": 26675.248,
+    "outer_terai_bounding_box": [
+      80.05847,
+      26.34776,
+      88.18787,
+      29.13723
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "dataset_title": "Nepal Terai Populated Places Foundation",
+  "version": "1.0.0",
+  "generated_date": "2026-10-24",
+  "primary_source": {
+    "name": "Populated Places of Nepal (OSGeo Nepal / HOTOSM)",
+    "source_url": "https://data.humdata.org/dataset/hotosm_npl_populated_places",
+    "license": "Open Database License (ODC-ODbL)",
+    "snapshot_date": "2026-10-07",
+    "raw_file": "data/reference/nepal/settlements/raw/hotosm_npl_populated_places_osm_geojson.zip"
+  },
+  "secondary_source": {
+    "name": "GeoNames Nepal Geographical Database (NP.zip)",
+    "source_url": "https://download.geonames.org/export/dump/NP.zip",
+    "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+    "raw_file": "data/reference/nepal/settlements/raw/geonames_NP.zip"
+  },
+  "legacy_fixtures": {
+    "count": 17,
+    "description": "Hand-curated flood response fixtures across Koshi, Rautahat, and Banke with verified emergency infrastructure and local disaster contact attributes.",
+    "label": "curated_field_reference"
+  },
+  "data_standards": {
+    "crs": "EPSG:4326 (WGS84)",
+    "geometry_type": "Point (populated place centroids; not complete boundary polygons)",
+    "double_counting_warning": "Centroid points represent settlement locations. Population exposure analysis uses the 100m WorldPop dasymetric raster to prevent double counting across overlapping catchment buffers."
+  }
+}
